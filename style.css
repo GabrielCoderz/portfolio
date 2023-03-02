@@ -246,7 +246,7 @@ section {
 }
 
 .about-content .content .sub-content {
-    margin-top: 0.4rem;
+    margin-top: 0.3rem;
     margin-left: 2rem;
 }
 
@@ -254,9 +254,9 @@ section {
     padding: 0.2rem;
 }
 
-.about-content .content .circle {
-    font-size: 1.7rem;
-    margin-right: 1rem;
+.about-content .content .arrow {
+    font-size: 2rem;
+    margin-right: 0.7rem;
 }
 
 .about-content .content .sub-content p i {
