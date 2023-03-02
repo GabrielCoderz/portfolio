@@ -448,6 +448,12 @@ section {
     background: var(--second-bg-color);
 }
 
+.footer-text {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer-text p {
     font-size: 1.6rem;
 }
@@ -465,6 +471,8 @@ section {
     background: var(--main-color);
     border-radius: .8rem;
     transition: .5s ease;
+    animation: iconUp 1.5s ease forwards infinite;
+    animation-delay: 1s;
 }
 
 .footer-iconTop a:hover {
@@ -511,6 +519,20 @@ section {
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@keyframes iconUp {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
     }
 }
 
@@ -639,6 +661,12 @@ section {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer-text {
+        /* width: 80%; */
+        display: block;
+        /* justify-content: space-around; */
+    }
 }
 
 @media (max-width: 617px) {
@@ -673,5 +701,11 @@ section {
     .footer p {
         text-align: center;
         margin-top: 2rem;
+    }
+
+    .footer .footer-text .description {
+        text-align: center;
+        margin-top: 2rem;
+        color: var(--main-color);
     }
 }
