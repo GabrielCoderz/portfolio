@@ -603,6 +603,7 @@ section {
     .home {
         /* flex-direction: column; */
         flex-direction: column-reverse;
+        padding: 0;
     }
 
     .home-content h3 {
@@ -614,9 +615,8 @@ section {
     }
 
     .home-img img {
-        /* display: ; */
         width: 30vw;
-        /* margin-bottom: 1rem; */
+        margin-top: 10rem;
     }
 
     .about {
