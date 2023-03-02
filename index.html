@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfólio.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Início</a>
+            <a href="#about" style="--i:2;">Sobre</a>
+            <a href="#services" style="--i:3;">Serviços</a>
+            <a href="#portfolio" style="--i:4;">Portfólios</a>
+            <a href="#contact" style="--i:5;">Contato</a>            
+        </nav>
+        
+    </header>
+
+    <!-- Início -->
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Olá, meu nome é</h3>
+            <h1>Gabriel</h1>
+            <h3>e atuo como <span>Software Engineer.</span></h3>
+            <p>Você pode me acompanhar no linkedin, verificar meu github ou baixar meu currículo.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/gabriel-maia-a93a7019b/" style="--i:6;" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:7;"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="reaction.gif" alt="">
+        </div> -->
+    </section>
+
+    <!-- Sobre -->
+
+    <section class="about" id="about">
+        <h2 class="heading">Sobre <span>mim</span></h2>
+        <!-- <div class="about-img">
+            <img src="reaction.gif" alt="">
+        </div> -->
+
+        <div class="about-content">
+            <div class="education">
+
+            </div>
+            <div class="experiences">
+
+            </div>
+            <p>Tenho 23 anos e estou cursando o 8° período de <span class="curso">Ciência da Computação</span> na <span class="instituicao">UERJ</span>, com previsão para a formação em 03/24.</p>
+            <p>Em 2019 comecei os estudos em Javascript, CSS e HTML e em paralelo a faculdade me deu uma base boa em algoritmo e estrutura de dados utilizando a linguagem C. A partir daí fui me aprimorando outras tecnologias que inclusive as utilizo no trabalho hoje, como: Angular, RxJs, Typescript e Git </p>
+            <p>Atualmente estou descobrindo novos horizontes como a Engenharia de dados.</p>
+            <!-- <a href="" class="btn">Ler mais</a> -->
+        </div>
+    </section>
+
+    <!-- Serviços -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Serviços</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Desenvolvimento web</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <a href="#" class="btn">Saber mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Desenvolvimento web</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <a href="#" class="btn">Saber mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Desenvolvimento web</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <a href="#" class="btn">Saber mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Desenvolvimento web</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <a href="#" class="btn">Saber mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólios  -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Projetos</h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio1_image.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Landing Page</h4>
+                    <p>Aplicação desenvolvida em Angular e Firebase</p>
+                    <a href="https://conaii.com.br/#/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contato</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Seu nome">
+                <input type="email" placeholder="Seu email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Seu celular">
+                <input type="text" placeholder="Assunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 por Gabriel | Todos os direitos reservados.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
