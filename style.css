@@ -603,7 +603,7 @@ section {
     .home {
         /* flex-direction: column; */
         flex-direction: column-reverse;
-        padding: 0;
+        padding: 0 3.5rem;
     }
 
     .home-content h3 {
